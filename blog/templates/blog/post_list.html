@@ -7,8 +7,6 @@
             <h1><a href="/">Blog Django</a></h1>
         </div>
 
-        
-
         {% for post in posts %}
             
             <div>
@@ -17,5 +15,5 @@
                 <p>{{ post.text|linebreaksbr }}</p>
             </div>
         {% endfor %}
-        
+
 </html>
